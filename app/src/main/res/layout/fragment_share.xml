@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_w"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/dp_3"
+        android:layout_marginEnd="@dimen/dp_3"
+        android:layout_height="170dp"
+        android:background="@drawable/back_head1">
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_25"
+            android:text="共享田园"
+            android:textSize="@dimen/sp_22" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginStart="@dimen/dp_0"
+            android:layout_marginTop="@dimen/dp_56"
+            android:background="@drawable/line2" />
+        <Button
+            android:visibility="gone"
+            android:id="@+id/com"
+            android:layout_gravity="right"
+            android:background="@drawable/share_1"
+            android:layout_width="@dimen/dp_40"
+            android:layout_marginEnd="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"/>
+        <LinearLayout
+            android:layout_marginTop="@dimen/dp_80"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:drawableTop="@drawable/tomato1"
+                android:id="@+id/vegetable"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_60"
+                android:layout_marginTop="@dimen/dp_0"
+                android:outlineProvider="none"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@color/head1"
+                android:text="果蔬介绍"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:drawableTop="@drawable/machine"
+                android:id="@+id/machine"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_0"
+                android:layout_weight="1"
+                android:background="@color/head1"
+                android:includeFontPadding="false"
+                android:outlineProvider="none"
+                android:textColor="@color/white"
+                android:layout_height="@dimen/dp_60"
+                android:text="设备介绍"
+                android:textSize="12sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/reason"
+                android:drawableTop="@drawable/reason"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_0"
+                android:layout_weight="1"
+                android:background="@color/head1"
+                android:includeFontPadding="false"
+                android:outlineProvider="none"
+                android:textColor="@color/white"
+                android:layout_height="@dimen/dp_60"
+                android:text="高品质缘由"
+                android:textSize="12sp"
+                android:gravity="center"/>
+
+            <Button
+                android:drawableTop="@drawable/share"
+                android:background="@color/head1"
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_0"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:outlineProvider="none"
+                android:textColor="@color/white"
+                android:layout_height="@dimen/dp_60"
+                android:text="共享互换"
+                android:textSize="12sp"
+                android:gravity="center"/>
+
+            <Button
+                android:visibility="gone"
+                android:background="@color/head1"
+                android:id="@+id/more"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/dp_0"
+                android:includeFontPadding="false"
+                android:outlineProvider="none"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"
+                android:text="更多"
+                android:textSize="12sp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_160"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginEnd="@dimen/dp_10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_150"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:orientation="vertical"
+                android:background="@drawable/backnew">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0"
+                    android:layout_weight="100"
+                    >
+
+                    <Button
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:layout_marginStart="@dimen/dp_20"
+                        android:layout_weight="48"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/white"
+                        android:gravity="left"
+                        android:outlineProvider="none"
+                        android:text="积分兑换\n商品立减20元"
+                        android:textColor="@color/black"
+                        tools:ignore="NestedWeights,RtlHardcoded" />
+
+                    <ImageButton
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:layout_weight="24"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/tagone" />
+                    <ImageView
+                        android:layout_margin="@dimen/dp_10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/line1"/>
+
+                    <Button
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:outlineProvider="none"
+                        android:text="天天抽奖\n商品立减20元"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="48"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:layout_weight="24"
+                        android:layout_marginRight="@dimen/dp_20"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/gift" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_margin="@dimen/dp_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/line23"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0"
+                    android:layout_weight="100">
+                    <Button
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:layout_marginStart="@dimen/dp_20"
+                        android:layout_weight="48"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/white"
+                        android:gravity="left"
+                        android:outlineProvider="none"
+                        android:text="技能发现\n新鲜技能使用"
+                        android:textColor="@color/black"
+                        tools:ignore="NestedWeights,RtlHardcoded" />
+
+                    <ImageButton
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:layout_weight="24"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/box" />
+                    <ImageView
+                        android:layout_margin="@dimen/dp_10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/line1"/>
+
+                    <Button
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:outlineProvider="none"
+                        android:text="内容精选\n热门养生内容"
+                        android:textColor="@color/black"
+                        android:gravity="left"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="48"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_45"
+                        android:layout_weight="24"
+                        android:layout_marginRight="@dimen/dp_20"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/honey" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/video"
+                android:background="@drawable/bar1"
+                android:layout_margin="@dimen/dp_10"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:radius="40dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

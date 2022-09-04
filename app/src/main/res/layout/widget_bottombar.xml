@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_100"
+    android:paddingTop="5dp"
+    android:background="@drawable/backnew"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/first2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:text="首页"
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/shop2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp_5"
+            android:gravity="center"
+            android:text="商城"
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/farm2"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_weight="1"
+            android:textColor="@color/grey"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_height="match_parent"
+            android:text="田园"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/my2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dp_5"
+            android:gravity="center"
+            android:text="我家"
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

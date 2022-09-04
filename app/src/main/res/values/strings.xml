@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">newAg</string>
+    <string name="submit" translatable="false">提交</string>
+    <string name="no" translatable="false">序号</string>
+    <string name="name" translatable="false">名称</string>
+    <string name="cost" translatable="false">投入费用</string>
+    <string name="time" translatable="false">日期 如2022.2.2</string>
+    <string name="energyCost" translatable="false">能源开销</string>
+    <string name="other" translatable="false">备注</string>
+    <string name="yuan" translatable="false">元</string>
+    <string name="fishCost" translatable="false">鱼苗成本</string>
+    <string name="oneCost" translatable="false">单价</string>
+    <string name="weight" translatable="false">重量</string>
+    <string name="vegetableCost" translatable="false">菜苗成本</string>
+    <string name="other_cost" translatable="false">其他成本</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank homeFragment</string>
+    <string name="share" translatable="false">共享田园</string>
+    <string name="woman" translatable="false">女生</string>
+    <string name="man" translatable="false">男生</string>
+    <string name="cultvation" translatable="false">农场养殖</string>
+    <string name="my" translatable="false">我的</string>
+    <string name="生产单元添加" translatable="false">农场养殖</string>
+    <string name="imei" translatable="false">检验IMEI码，保证账号安全，防止账号被盗。</string>
+    <string name="tel_permiss" translatable="false">· 手机电话权限：</string>
+    <string name="down_permiss" translatable="false">下载文件，降低流量消耗。</string>
+    <string name="cache_permiss" translatable="false">· 存储权限：</string>
+    <string name="need_permiss" translatable="false">菜鱼共生需要以下权限才能正常使用</string>
+    <string name="refuse_permission" translatable="false">您拒绝了权限申请</string>
+    <string name="title_activity_message" translatable="false">MessageActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_activity_choose">ChooseActivity</string>
+</resources>
